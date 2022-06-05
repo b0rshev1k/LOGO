@@ -1,0 +1,281 @@
+* {
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: 'Museo Sans';
+	src: url(fonts/MuseoSansCyrl-100.ttf);
+}
+
+@font-face {
+	font-family: 'Avenir';
+	src: url(fonts/AvenirLTStd-Book.otf);
+}
+
+@font-face {
+	font-family: 'Proxima Nova';
+	src: url(fonts/ProximaNova-Black.ttf);
+}
+
+
+.header {
+	max-width: 1440px;
+	width: 100%;
+	height: 80px;
+	margin: 0;
+	background-color: #f7fdfe;
+	font-family: 'Museo Sans';
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-title {
+	line-height: 1.2;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.025em;
+	color: #82868f;
+	font-size: 30px;]
+	padding: 0;
+	margin-left: 250px;
+	margin-top: 8px;
+}
+
+.nav {
+	margin-right: 250px;
+	margin-top: 20px;
+}
+
+.nav-elements {
+	text-decoration: none;
+	line-height: 1.2;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.025em;
+	color: #82868f;
+	font-size: 14px;
+	margin-left: 61px;
+	padding: 0px 0px 0px 0px;
+	transition: 0.2s linear;
+}
+
+.nav-elements:hover {
+	border: 1px solid #0ebfdd;
+	border-radius: 19.5px;
+	background-color: #0ebfdd;
+	padding-top: 16px;
+	padding-bottom: 14px;
+	padding-left: 36px;
+	padding-right: 28px;
+	color: #f7fdfe;
+}
+
+.our-mission {
+	max-width: 1440px;
+	width: 100%;
+	height: 600px;
+	background: url('pictures/background/our_mission.jpg');
+	text-align: center;
+}
+
+.our-mission-content {
+	padding-top: 404px;
+}
+
+.content-titles {
+	font-family: Avenir;
+	font-size: 44px;
+	line-height: 28px;
+	font-weight: 900;
+	color: #f7fdfe;
+	margin-bottom: 31px;
+	padding: 0;
+}
+
+.content-text {
+	width: 804px;
+	font-family: Avenir;
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: 500;
+	color: #f7fdfe;
+	word-wrap: break-word;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+}
+
+.about {
+	max-width: 1440px;
+	width: 100%;
+	height: 250px;
+	text-align: center;
+}
+
+.about-content {
+	padding-top: 66px;
+}
+
+.team {
+	max-width: 1440px;
+	width: 100%;
+	height: 600px;
+	background-color: #0ebfdd;
+	text-align: center;
+	padding-top: 58px;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.pictures {
+	margin-bottom: 100px;
+}
+
+.team-table {
+	border-spacing: 70px 10px;
+	margin-top: 70px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.description {
+	font-family: Avenir;
+	font-size: 18px;
+	line-height: 1.2;
+	font-weight: 900;
+	color: #f7fdfe;
+}
+
+.work-with-us {
+	font-family: 'Museo Sans';
+	font-size: 14px;
+	line-height: 1.2;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #f7fdfe;
+	text-decoration: none;
+	border: 1px solid #f9fbfb;
+	border-radius: 19.5px;
+	padding-top: 16px;
+	padding-bottom: 14px;
+	padding-left: 36px;
+	padding-right: 37px;
+	transition: 0.2s linear;
+}
+
+.work-with-us:hover {
+	background-color: #f9fbfb;
+	color: #0ebfdd;
+}
+
+.map {
+	max-width: 1440px;
+	width: 100%;
+	height: 600px;
+	background: url(pictures/background/map.jpg);
+}
+
+.pointer {
+	background: url('pictures/pointer.png');
+	position: relative;
+	left: 377px;
+	top: 193px;
+	width: 168px;
+	height: 81px;
+}
+
+.point {
+	background: url('pictures/point.png');
+	width: 28px;
+	height: 36px;
+	position: relative;
+	left: 387px;
+	top: 205px;
+}
+
+.point2 {
+	background: url('pictures/point2.png');
+	width: 28px;
+	height: 36px;
+	position: relative;
+}
+
+.map-table {
+	position: relative;
+	left: 394px;
+	top: 6px;
+}
+
+.map-table-title {
+	font-family: 'Proxima Nova';
+	font-size: 15px;
+	line-height: 18px;
+	font-weight: 700;
+	color: #ffffff;
+}
+
+.map-table-text {
+	font-size: 13px;
+	font-weight: 600;
+	color: #888e95;
+}
+
+.footer {
+	max-width: 1440px;
+	width: 100%;
+	height: 120px;
+	background-color: #45494d;
+
+}
+
+.footer-top {
+	width: 940px;
+	height: 79px;
+	border-bottom: 1px solid #8a8d91;
+	opacity: 0.3;
+	margin-left: 250px;
+}
+
+.footer-nav {
+	margin-left: 0px;
+	padding-top: 36px;
+}
+
+.footer-nav-element {
+	font-family: 'Museo Sans';
+	font-size: 12.1px;
+	line-height: 1.2;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.025em;
+	color: #d7dee4;
+	text-decoration: none;
+	transition: 0.15s linear;
+}
+
+.footer-nav-element:hover {
+	color: #F2F872;
+	border-bottom: 2px solid #F2F872;
+}
+
+.ellips {
+	width: 40px;
+	height: 40px;
+	border: 1px solid #d7dee4;
+	border-radius: 40px;
+}
+
+.some-text {
+	margin-left: 794px;
+}
+
+.text {
+	font-family: 'Museo Sans';
+	font-size: 12px;
+	line-height: 1.2;
+	font-weight: 500;
+	letter-spacing: 0.025em;
+	color: #73767a;
+	text-decoration: underline dotted;
+}
